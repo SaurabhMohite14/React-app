@@ -1,12 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-//Code Formating
-//Auto save
-//Auto Suggestion
-//Run the program :: npm start
 
 function App() {
-retu
+return (<div>
+  <h1>Hello World</h1>
+</div>);
 }
 
 export default App;
