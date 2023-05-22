@@ -1,8 +1,8 @@
-function saurabh() {
+function Head() {
   return (
     <div>
-      <h1>this Is header</h1>
+      <h1>RGISTRATION</h1>
     </div>
   );
 }
-export default saurabh;
+export default Head;

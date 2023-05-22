@@ -1,20 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
-import saurabh from "./pages/Header";
+import Registration from "./Rgistration";
+import Head from "./pages/Header";
 function App() {
   return (
     <div>
-      <Header></Header>
-      <MainBody />
-      <h1>Hello World</h1>
-      <Header />
-      <Footer />
-      <saurabh />
+      <Head />
+      <Registration />
     </div>
   );
 }
 
-function Header() {
+/**function Header() {
   return (
     <div>
       <h1>Saurabh Mohite</h1>
@@ -35,6 +32,6 @@ function MainBody() {
 
 function Footer() {
   return <div>This is footer</div>;
-}
+}*/
 
 export default App;
