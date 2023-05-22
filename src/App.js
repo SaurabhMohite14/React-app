@@ -5,8 +5,10 @@ function App() {
   return (
     <div>
     <Header></Header>
+    <MainBody/>
       <h1>Hello World</h1>
       <Header />
+      <Footer/>
     </div>
   );
 }
@@ -18,6 +20,16 @@ function Header() {
       
     </div>
   );
+}
+
+function MainBody(){
+  return <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia temporibus magnam, eveniet animi molestias ipsam quae obcaecati qui. Natus nulla dolorem porro eaque doloremque soluta aliquam iure itaque, eligendi facilis!</div>
+}
+
+function Footer(){
+  return <div>
+This is footer
+  </div>
 }
 
 export default App;
